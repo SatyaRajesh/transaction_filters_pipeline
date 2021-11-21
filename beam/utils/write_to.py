@@ -23,4 +23,4 @@ def write_to_gzip(collection: PCollection, output_prefix: str):
 
 # Format the transactions into a PCollection of strings.
 def format_result(trans_data: Transaction):
-    return "%s, %s" % (trans_data.date, trans_data.total_amount)
+    return f"{trans_data.date}, {trans_data.total_amount}"

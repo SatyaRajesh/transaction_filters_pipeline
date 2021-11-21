@@ -12,15 +12,6 @@ from beam.transformation.transaction_filter_report import TransactionFilterRepor
 from beam.utils.read_from import read_from_file
 from beam.utils.write_to import write_to_gzip
 
-# TODO
-# Exception / Error Handling
-# File dividing and folders --> Done
-# Composite Transition --> Done
-# Unit Tests
-# Logging
-# Performance
-# Metrics
-
 
 def parse_validate_arguments(argv):
     parser = argparse.ArgumentParser()
